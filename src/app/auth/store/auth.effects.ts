@@ -134,7 +134,7 @@ export class AuthEffects {
       if (authSuccessAction.payload.redirect) {
         this.router.navigate(['/']);
       }
-    })
+    })           
   );
 
   @Effect()
